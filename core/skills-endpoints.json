@@ -3,7 +3,9 @@
     {
       "method": "POST",
       "route": "/api/action/games/akinator/choose_thematic",
-      "params": ["thematic"],
+      "params": [
+        "thematic"
+      ],
       "entitiesType": "trim"
     },
     {
@@ -44,7 +46,9 @@
     {
       "method": "POST",
       "route": "/api/action/games/rochambeau/play",
-      "params": ["handsign"],
+      "params": [
+        "handsign"
+      ],
       "entitiesType": "trim"
     },
     {
@@ -53,14 +57,12 @@
       "params": []
     },
     {
-      "method": "GET",
-      "route": "/api/action/unknown/widget-playground/run",
-      "params": []
-    },
-    {
       "method": "POST",
       "route": "/api/action/news/github_trends/run",
-      "params": ["number", "daterange"],
+      "params": [
+        "number",
+        "daterange"
+      ],
       "entitiesType": "builtIn"
     },
     {
@@ -71,7 +73,9 @@
     {
       "method": "POST",
       "route": "/api/action/productivity/todo_list/create_list",
-      "params": ["list"],
+      "params": [
+        "list"
+      ],
       "entitiesType": "trim"
     },
     {
@@ -82,37 +86,53 @@
     {
       "method": "POST",
       "route": "/api/action/productivity/todo_list/view_list",
-      "params": ["list"],
+      "params": [
+        "list"
+      ],
       "entitiesType": "trim"
     },
     {
       "method": "POST",
       "route": "/api/action/productivity/todo_list/rename_list",
-      "params": ["old_list", "new_list"],
+      "params": [
+        "old_list",
+        "new_list"
+      ],
       "entitiesType": "trim"
     },
     {
       "method": "POST",
       "route": "/api/action/productivity/todo_list/delete_list",
-      "params": ["list"],
+      "params": [
+        "list"
+      ],
       "entitiesType": "trim"
     },
     {
       "method": "POST",
       "route": "/api/action/productivity/todo_list/add_todos",
-      "params": ["todos", "list"],
+      "params": [
+        "todos",
+        "list"
+      ],
       "entitiesType": "trim"
     },
     {
       "method": "POST",
       "route": "/api/action/productivity/todo_list/complete_todos",
-      "params": ["todos", "list"],
+      "params": [
+        "todos",
+        "list"
+      ],
       "entitiesType": "trim"
     },
     {
       "method": "POST",
       "route": "/api/action/productivity/todo_list/uncheck_todos",
-      "params": ["todos", "list"],
+      "params": [
+        "todos",
+        "list"
+      ],
       "entitiesType": "trim"
     },
     {
@@ -192,6 +212,36 @@
     },
     {
       "method": "GET",
+      "route": "/api/action/social_communication/conversation/setup",
+      "params": []
+    },
+    {
+      "method": "GET",
+      "route": "/api/action/social_communication/conversation/chit_chat",
+      "params": []
+    },
+    {
+      "method": "GET",
+      "route": "/api/action/social_communication/conversation/converse",
+      "params": []
+    },
+    {
+      "method": "GET",
+      "route": "/api/action/social_communication/mbti/setup",
+      "params": []
+    },
+    {
+      "method": "GET",
+      "route": "/api/action/social_communication/mbti/quiz",
+      "params": []
+    },
+    {
+      "method": "GET",
+      "route": "/api/action/unknown/widget-playground/run",
+      "params": []
+    },
+    {
+      "method": "GET",
       "route": "/api/action/utilities/date_time/current_date_time",
       "params": []
     },
@@ -228,7 +278,9 @@
     {
       "method": "POST",
       "route": "/api/action/utilities/is_it_down/run",
-      "params": ["url"],
+      "params": [
+        "url"
+      ],
       "entitiesType": "builtIn"
     },
     {
@@ -264,31 +316,6 @@
     {
       "method": "GET",
       "route": "/api/action/utilities/translator-poc/translate",
-      "params": []
-    },
-    {
-      "method": "GET",
-      "route": "/api/action/social_communication/conversation/setup",
-      "params": []
-    },
-    {
-      "method": "GET",
-      "route": "/api/action/social_communication/conversation/chit_chat",
-      "params": []
-    },
-    {
-      "method": "GET",
-      "route": "/api/action/social_communication/conversation/converse",
-      "params": []
-    },
-    {
-      "method": "GET",
-      "route": "/api/action/social_communication/mbti/setup",
-      "params": []
-    },
-    {
-      "method": "GET",
-      "route": "/api/action/social_communication/mbti/quiz",
       "params": []
     }
   ]
